@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { nunitoSans } from "./fonts/fonts";
+import Navbar from "@/components/shared/Navbar/Navbar";
 
 
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body
         className={`${nunitoSans.className} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
