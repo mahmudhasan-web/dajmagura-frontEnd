@@ -12,7 +12,7 @@ const config: Config = {
     extend: {
       container: {
         center: true, // Centers the container by default
-        padding: "2rem",
+        padding: "1rem",
         screens: {
           sm: "100%", // Customize container width on small screens
           md: "100%", // Customize container width on medium screens
@@ -24,6 +24,8 @@ const config: Config = {
         primary: "#1A73E8",
         accent: "#F5C518",
         text_primary: "#041326",
+        text_secondary: "#6B7280",
+        paragraph: "#4A4A4A",
         primary_bg: "#04132699",
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -34,8 +36,8 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        lora: ["var(--base)", "sans-serif"],
-        nunitoSans: ["var(--nunitoSans)", "sans-serif"],
+        lora: ["Lora", "sans-serif"],
+        nunitoSans: ["var(--font-nunito-sans)", "sans-serif"],
       },
     },
   },

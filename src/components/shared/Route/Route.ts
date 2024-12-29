@@ -5,7 +5,7 @@ export const Routes = [
   },
   {
     label: "ABOUT",
-    route: "/about",
+    route: "/aboutUs",
   },
   {
     label: "SERVICES",

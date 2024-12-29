@@ -5,12 +5,10 @@ import Navbar from "@/components/shared/Navbar/Navbar";
 import ContactUs from "@/components/ContactUs/ContactUs";
 import Footer from "@/components/Footer/Footer";
 
-
-
 export const metadata: Metadata = {
   title: {
     default: "Magura",
-    template: "%s | Magura"
+    template: "%s | Magura",
   },
 };
 
