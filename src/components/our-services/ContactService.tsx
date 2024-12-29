@@ -1,8 +1,12 @@
+"use client"
+
 import Image from "next/image";
 import Button from "../shared/Button/Button";
 import Image1 from "@/assets/image.png";
+import { useRouter } from "next/navigation";
 
 export default function ContactService() {
+  const router = useRouter()
   return (
     <section className="container my-20">
       <div className="grid gap-8 md:grid-cols-2 items-center">
@@ -24,7 +28,7 @@ export default function ContactService() {
             professional management without the financial strain.
           </p>
           <p className="text-lg">Contact us today for a personalized quote.</p>
-          <Button className="bg-yellow-400 rounded-full px-8 hover:bg-yellow-500 text-black font-medium">
+          <Button onClick={() => router.push("/contactUs")} className="bg-yellow-400 rounded-full px-8 hover:bg-yellow-500 text-black font-medium">
             CONTACT US
           </Button>
         </div>

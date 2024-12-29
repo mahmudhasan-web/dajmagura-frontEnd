@@ -35,7 +35,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-gray-400">
+                <Link href="/aboutUs" className="hover:text-gray-400">
                   ABOUT
                 </Link>
               </li>
@@ -45,7 +45,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/testimonials" className="hover:text-gray-400">
+                <Link href="/#testimonials" className="hover:text-gray-400">
                   TESTIMONIALS
                 </Link>
               </li>

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Routes } from '../Route/Route';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import Button from '../Button/Button';
 import { TiThMenu } from 'react-icons/ti';
 import { motion } from "motion/react"
@@ -11,6 +11,7 @@ import { IoClose } from 'react-icons/io5';
 const Navbar = () => {
 
     const pathName = usePathname()
+    const router = useRouter()
     const [sideNav, setSideNav] = useState(false);
     return (
         <div className='absolute flex h-16  z-50 justify-around w-full top-0'>
@@ -27,7 +28,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='my-auto md:block hidden'>
-                <Button className='rounded-3xl bg-accent'>CONTACT US</Button>
+                <Button onClick={() => router.push("/contactUs")} className='rounded-3xl bg-accent'>CONTACT US</Button>
             </div>
             <div className='my-auto text-white md:hidden block'>
                 <button onClick={() => setSideNav(true)} className='text-3xl top-1 relative '><TiThMenu className='' /></button>

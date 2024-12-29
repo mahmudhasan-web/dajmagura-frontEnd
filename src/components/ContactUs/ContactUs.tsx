@@ -6,8 +6,8 @@ import Button from '../shared/Button/Button';
 
 const ContactUs = () => {
   return (
-    <div className=' section-gap'>
-      <div className=' bg-gray-100 '>
+    <div className=''>
+      <div className=' bg-gray-100 py-20'>
         <div className="flex flex-col md:flex-row items-center justify-around container">
           {/* Contact Info Section */}
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
