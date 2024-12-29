@@ -14,9 +14,6 @@ export default function Page() {
                 features={HomewhychooseUs}
             />
             <TestimonialsSlider />
-
-
-
         </div>
     );
 }

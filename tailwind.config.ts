@@ -48,30 +48,25 @@ const config: Config = {
       addComponents({
         ".section-gap": {
           paddingTop: "2rem", // Default padding for all screen sizes
-          paddingBottom: "2rem", // Default padding for all screen sizes
 
           // For small screens (sm)
           "@screen sm": {
             paddingTop: "4rem", // Adjust padding for small screens
-            paddingBottom: "4rem",
           },
 
           // For medium screens (md)
           "@screen md": {
             paddingTop: "6rem", // Adjust padding for medium screens
-            paddingBottom: "6rem",
           },
 
           // For large screens (lg)
           "@screen lg": {
             paddingTop: "7rem", // Adjust padding for large screens
-            paddingBottom: "7rem",
           },
 
           // For extra-large screens (xl)
           "@screen xl": {
             paddingTop: "8rem", // Adjust padding for extra-large screens
-            paddingBottom: "8rem",
           },
         },
       });
