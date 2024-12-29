@@ -27,7 +27,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='my-auto md:block hidden'>
-                <Button className='rounded-3xl'>CONTACT US</Button>
+                <Button className='rounded-3xl bg-accent'>CONTACT US</Button>
             </div>
             <div className='my-auto text-white md:hidden block'>
                 <button onClick={() => setSideNav(true)} className='text-3xl top-1 relative '><TiThMenu className='' /></button>

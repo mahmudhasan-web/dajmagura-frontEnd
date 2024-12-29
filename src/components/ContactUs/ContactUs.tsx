@@ -87,7 +87,7 @@ const ContactUs = () => {
               rows={4}
             ></textarea>
           </div>
-          <Button className='w-full rounded-3xl '>SEND</Button>
+          <Button className='w-full rounded-3xl bg-accent'>SEND</Button>
         </form>
       </div>
     </div>
