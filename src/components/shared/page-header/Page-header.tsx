@@ -27,7 +27,7 @@ export function PageHeader({
 
             {/* Content */}
             <div className="relative flex h-full items-center justify-center px-4 max-w-3xl mx-auto">
-                <h1 className="text-center text-3xl font-bold text-white md:text-4xl lg:text-5xl">
+                <h1 className="text-center text-3xl font-bold text-white md:text-4xl lg:text-5xl font-lora">
                     {title}
                 </h1>
             </div>

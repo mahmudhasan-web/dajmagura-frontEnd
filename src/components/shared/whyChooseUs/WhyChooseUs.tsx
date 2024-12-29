@@ -18,7 +18,7 @@ export function FeaturesSection({
     return (
         <section className="container section-gap">
             <div className="mx-auto max-w-[58rem] text-center">
-                <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
+                <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl font-lora">
                     {title}
                 </h2>
                 <p className="text-muted-foreground text-sm sm:text-lg lg:text-xl">{subtitle}</p>

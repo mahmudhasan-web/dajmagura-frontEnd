@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className='flex1 relative'>
                     <Image src={banner1} alt='banner1' width={1200} height={820} className='w-full h-[300px] md:h-full'></Image>
                     <div className='w-10/12 mx-auto absolute top-1/4 border pl-12 pt-12 pb-12 pr-6 text-white left-[10%] space-y-6'>
-                        <h1 className='md:text-6xl text-xl sm:text-2xl'>Maximize Your Property’s Potential with Expert Management.</h1>
+                        <h1 className='md:text-6xl text-xl sm:text-2xl font-lora'>Maximize Your Property’s Potential with Expert Management.</h1>
                         <h3 className='md:text-3xl text-lg sm:text-xl'>Let your property work for you. Earn more while we handle every detail effortlessly.</h3>
                         <p>Your trusted partner for hassle-free property management solutions.</p>
                     </div>

@@ -16,7 +16,7 @@ export default function ContactService() {
           />
         </div>
         <div className="space-y-6">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight font-lora">
             Why pay unnecessary service charges?
           </h2>
           <p className="text-lg text-muted-foreground">

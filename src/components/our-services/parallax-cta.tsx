@@ -41,7 +41,7 @@ export function ParallaxCta({
                                     {subtitle}
                                 </p>
                             )}
-                            <h2 className="mb-8 text-2xl font-bold leading-tight text-white md:text-3xl lg:text-4xl">
+                            <h2 className="mb-8 text-2xl font-bold leading-tight text-white md:text-3xl lg:text-4xl font-lora">
                                 {title}
                             </h2>
                             <Button
