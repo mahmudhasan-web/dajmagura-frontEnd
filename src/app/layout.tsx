@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { nunitoSans } from "./fonts/fonts";
+import { lora, nunitoSans } from "./fonts/fonts";
 
 
 
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${nunitoSans.className} antialiased`}
+        className={`${nunitoSans.className} ${lora.className} antialiased`}
       >
         {children}
       </body>

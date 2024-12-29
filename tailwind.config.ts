@@ -33,6 +33,10 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        lora: ["var(--base)", "sans-serif"],
+        nunitoSans: ["var(--nunitoSans)", "sans-serif"],
+      },
     },
   },
   plugins: [
@@ -58,14 +62,14 @@ const config: Config = {
 
           // For large screens (lg)
           "@screen lg": {
-            paddingTop: "8rem", // Adjust padding for large screens
-            paddingBottom: "8rem",
+            paddingTop: "7rem", // Adjust padding for large screens
+            paddingBottom: "7rem",
           },
 
           // For extra-large screens (xl)
           "@screen xl": {
-            paddingTop: "10rem", // Adjust padding for extra-large screens
-            paddingBottom: "10rem",
+            paddingTop: "8rem", // Adjust padding for extra-large screens
+            paddingBottom: "8rem",
           },
         },
       });
