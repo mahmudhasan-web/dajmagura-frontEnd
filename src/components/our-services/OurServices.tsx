@@ -5,7 +5,7 @@ import PropertyManagement from "./PropertyManagement";
 
 const OurServices = () => {
   return (
-    <div>
+    <div className="container">
       <PropertyManagement />
       <FeaturesSection title="Why Choose Us" features={whychooseUs} />
     </div>

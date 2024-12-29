@@ -2,8 +2,8 @@ import React from "react";
 import SectionHeader from "../shared/header/SectionHeader";
 import Image from "next/image";
 import Image1 from "@/assets/Rectangle 4295 (2).png";
-import Image2 from "@/assets/Rectangle 4295 (2).png";
-import Image3 from "@/assets/Rectangle 4295 (2).png";
+import Image2 from "@/assets/Rectangle 4296.png";
+import Image3 from "@/assets/Rectangle 4297.png";
 
 const images = [Image1, Image2, Image3];
 
