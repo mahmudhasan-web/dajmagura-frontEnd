@@ -18,7 +18,7 @@ export default function DynamicSection({
   dynamicSection: ContentSection[];
 }) {
   return (
-    <div className="container mx-auto py-12 px-4">
+    <div className="mx-auto py-12">
       {/* Wrapper for all sections */}
       <div className="flex flex-col gap-10 md:gap-16 xl:gap-20">
         {dynamicSection.map((section) => (
@@ -35,13 +35,13 @@ export default function DynamicSection({
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
-                className="relative h-[500px] rounded-lg overflow-hidden"
+                className="relative  w-full aspect-video  rounded-lg overflow-hidden"
               >
                 <Image
                   src={section.image}
                   alt={section.title}
                   fill
-                  className=" hover:scale-105 transition-transform duration-500"
+                  className="object-cover hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 50vw"
                   priority={section.id === 1} // High priority for the first section image
                 />
@@ -55,7 +55,7 @@ export default function DynamicSection({
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="text-3xl md:my-5 md:text-4xl font-semibold font-lora max-md:px-2"
+                className="text-3xl md:my-5 md:text-4xl font-semibold font-lora "
               >
                 {section.title}
               </motion.h2>
@@ -80,7 +80,7 @@ export default function DynamicSection({
                     if (typeof item === "string") {
                       return (
                         <p
-                          className="text-2xl first-letter:font-bold first-letter:text-[1.8rem]"
+                          className="text-xl md:text-2xl first-letter:font-bold first-letter:text-[1.6rem]"
                           key={index}
                         >
                           {item}
@@ -102,7 +102,9 @@ export default function DynamicSection({
                               <span className="mr-2 mt-1 text-paragraph">
                                 •
                               </span>
-                              <span className="text-2xl">{point}</span>
+                              <span className="text-xl md:text-2xl">
+                                {point}
+                              </span>
                             </motion.li>
                           ))}
                         </ul>
@@ -120,13 +122,13 @@ export default function DynamicSection({
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
-                className="relative h-[500px] rounded-lg overflow-hidden"
+                className="relative  w-full aspect-video  rounded-lg overflow-hidden"
               >
                 <Image
                   src={section.image}
                   alt={section.title}
                   fill
-                  className=" hover:scale-105 transition-transform duration-500"
+                  className="object-cover hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </motion.div>
