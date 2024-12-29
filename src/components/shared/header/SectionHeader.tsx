@@ -1,0 +1,17 @@
+import React from "react";
+
+const SectionHeader = ({ title }: { title: string }) => {
+  return (
+    <div className="md:flex items-center my-8 md:my-12 gap-6">
+      <div className="text-4xl md:text-5xl font-bold font-lora max-md:px-2">
+        {title}
+      </div>
+      <div className="flex items-center max-md:mt-4 flex-1">
+        <div className="w-1/4 min-w-[250px] md:min-w-[400px] h-3 bg-primary"></div>
+        <div className="w-full h-1 bg-primary"></div>
+      </div>
+    </div>
+  );
+};
+
+export default SectionHeader;

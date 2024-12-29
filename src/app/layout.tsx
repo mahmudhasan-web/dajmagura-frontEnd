@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { nunitoSans } from "./fonts/fonts";
+import { lora, nunitoSans } from "./fonts/fonts";
 
 export const metadata: Metadata = {
   title: {
@@ -15,8 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="light">
-      <body className={`${nunitoSans.className} antialiased`}>{children}</body>
+    <html lang="en">
+      <body
+        className={`${nunitoSans.className} ${lora.className} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
