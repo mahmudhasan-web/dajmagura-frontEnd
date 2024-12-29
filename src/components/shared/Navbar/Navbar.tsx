@@ -4,12 +4,13 @@ import React from 'react';
 import { Routes } from '../Route/Route';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Button from '../Button/Button';
 
 const Navbar = () => {
 
     const pathName = usePathname()
     return (
-        <div>
+        <div className=''>
             <div>
                 <h1 className={``}>Magura</h1>
             </div>
@@ -23,7 +24,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div>
-                
+                <Button>CONTACT US</Button>
             </div>
         </div>
     );
