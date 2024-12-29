@@ -14,12 +14,13 @@ const images = [
   },
   {
     img: Image2,
-    title: "Maintenance Services",
-    header: "Keep your properties in top condition with our expert services.",
+    title: "Maintenance and Repairs",
+    header:
+      "Together we coordinate with trusted contractors to keep your property in top shape and address issues promptly.",
   },
   {
     img: Image3,
-    title: "Financial Management",
+    title: "Financial Reporting",
     header: "Seamless handling of all property-related finances.",
   },
 ];
