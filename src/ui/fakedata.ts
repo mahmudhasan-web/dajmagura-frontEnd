@@ -1,5 +1,9 @@
-import featur1 from "@/assests/features/encryption-key 2.png";
-import image1 from "@/assests/testimonials/elegant-businessman-office.jpg";
+import featur1 from "@/assets/features/encryption-key 2.png";
+import image1 from "@/assets/testimonials/elegant-businessman-office.jpg";
+import handShake from "@/assets/features//handshake 2.png";
+import customer from "@/assets/features/customer-service 2.png";
+import customer2 from "@/assets/features/costumer 2.png";
+import coins from "@/assets/features/stack_16809246.png";
 
 export const HomewhychooseUs = [
   {
@@ -9,13 +13,13 @@ export const HomewhychooseUs = [
       "Expert Care And Oversight For Your Property, Ensuring Seamless Operations",
   },
   {
-    image: featur1.src,
+    image: handShake.src,
     title: "Boost Your Returns",
     description:
       "Unlock Higher Rental Income With Our Proven Strategies Designed To Maximize Returns",
   },
   {
-    image: featur1.src,
+    image: customer.src,
     title: "Dedicated Support Team",
     description:
       "Our Reliable Team Is Always Here To Handle Your Property Needs With Care And Experience",
@@ -24,18 +28,18 @@ export const HomewhychooseUs = [
 
 export const whychooseUs = [
   {
-    image: featur1.src,
+    image: customer2.src,
     title: "proven track record",
     description:
       "A history of satisfied clients and successful property management.",
   },
   {
-    image: featur1.src,
+    image: handShake.src,
     title: "client retention rates",
     description: "Long-term relationships built on trust and performance.",
   },
   {
-    image: featur1.src,
+    image: coins.src,
     title: "unique benefits",
     description:
       "No hidden fees, transparent pricing, and a dedicated team committed to maximizing your ROI.",

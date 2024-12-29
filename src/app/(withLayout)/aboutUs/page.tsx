@@ -2,7 +2,7 @@ import AboutUs from "@/components/aboutUs/AboutUs";
 import { PageHeader } from "@/components/shared/page-header/Page-header";
 import { Metadata } from "next";
 import React from "react";
-import anputUsBg from "@/assests/header/beautiful-shot-modern-house-kitchen-dining-room.jpg"
+import anputUsBg from "@/assets/header/beautiful-shot-modern-house-kitchen-dining-room.jpg"
 
 export const metadata: Metadata = {
   title: "About Us",
