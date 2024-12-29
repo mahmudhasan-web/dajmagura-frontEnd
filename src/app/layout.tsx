@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { lora, nunitoSans } from "./fonts/fonts";
 import Navbar from "@/components/shared/Navbar/Navbar";
+import ContactUs from "@/components/ContactUs/ContactUs";
+import Footer from "@/components/Footer/Footer";
 
 
 
@@ -24,6 +26,8 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <ContactUs />
+        <Footer />
       </body>
     </html>
   );
