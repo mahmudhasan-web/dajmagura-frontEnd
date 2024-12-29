@@ -16,7 +16,9 @@ const Navbar = () => {
     return (
         <div className='absolute flex h-16  z-50 justify-around w-full top-0'>
             <div className='my-auto'>
-                <h1 className={`text-3xl text-white`}>Magura</h1>
+                <Link href={"/"}>
+                    <h1 className={`text-3xl text-white`}>Magura</h1>
+                </Link>
             </div>
             <div className='my-auto md:block hidden'>
                 <ul className='flex gap-5'>
