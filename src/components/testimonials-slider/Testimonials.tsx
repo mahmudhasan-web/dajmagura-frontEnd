@@ -19,7 +19,7 @@ export default function TestimonialsSlider() {
     const [swiperInstance, setSwiperInstance] = useState<SwiperCore | null>(null);
     return (
 
-        <div className='relative  px-2 lg:container section-gap '>
+        <div id='testimonials' className='relative  px-2 lg:container section-gap '>
             <Swiper className="mySwiper max-w-7xl " slidesPerView={1}
                 centeredSlides={true}
                 autoplay={{
