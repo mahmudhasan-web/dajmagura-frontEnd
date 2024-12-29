@@ -1,6 +1,14 @@
 import React from "react";
 
-const SectionHeader = ({ title, line }: { title: string; line?: boolean }) => {
+const SectionHeader = ({
+  title,
+  line,
+  center,
+}: {
+  title: string;
+  line?: boolean;
+  center?: boolean;
+}) => {
   if (line) {
     return (
       <div className="md:flex  items-center my-8 md:my-12 gap-6">
@@ -14,7 +22,11 @@ const SectionHeader = ({ title, line }: { title: string; line?: boolean }) => {
   } else {
     return (
       <div>
-        <div className="text-3xl my-4 md:my-5 md:text-4xl font-semibold font-lora">
+        <div
+          className={`text-3xl my-4 md:my-5 md:text-4xl font-semibold font-lora ${
+            center && "text-center"
+          }`}
+        >
           {title}
         </div>
       </div>
