@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='section-gap'>
+    <div className=''>
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           {/* Logo and Social Icons */}
@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* Rights Section */}
           <div className="text-sm text-gray-200 space-y-6">
-            <ul className="flex space-x-8 text-sm font-medium mb-4 md:mb-0">
+            <ul className="flex flex-wrap gap-2 space-x-8 text-sm font-medium mb-4 md:mb-0">
               <li>
                 <Link href="/" className="hover:text-gray-400">
                   HOME

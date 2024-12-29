@@ -13,21 +13,19 @@ import ContactService from "./ContactService";
 
 const OurServices = () => {
   return (
-    <div className="container">
-      <ParallaxProvider>
-        <PropertyManagement />
-        <PageHeader title="Our Services" backgroundImage={servicesBg.src} />
-        <ContactService />
-        <FeaturesSection title="Why Choose Us" features={whychooseUs} />
-        <ParallaxCta
-          backgroundImage={parallaxBg.src}
-          buttonHref="/"
-          buttonText="Book a call today"
-          subtitle="Ready to stop paying management fees? "
-          title="Contact us today to schedule a consultation and unlock your property's full potential!"
-        />
-      </ParallaxProvider>
-    </div>
+    <ParallaxProvider>
+      <PageHeader title="Our Services" backgroundImage={servicesBg.src} />
+      <PropertyManagement />
+      <ContactService />
+      <FeaturesSection title="Why Choose Us" features={whychooseUs} />
+      <ParallaxCta
+        backgroundImage={parallaxBg.src}
+        buttonHref="/"
+        buttonText="Book a call today"
+        subtitle="Ready to stop paying management fees? "
+        title="Contact us today to schedule a consultation and unlock your property's full potential!"
+      />
+    </ParallaxProvider>
   );
 };
 

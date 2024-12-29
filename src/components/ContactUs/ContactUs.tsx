@@ -6,8 +6,8 @@ import Button from '../shared/Button/Button';
 
 const ContactUs = () => {
   return (
-    <div className='section-gap'>
-      <div className="flex flex-col md:flex-row items-center justify-around py-8 px-20 bg-gray-100 ">
+    <div className='section-gap bg-gray-100 container'>
+      <div className="flex flex-col md:flex-row items-center justify-around py-8  lg:px-20 ">
         {/* Contact Info Section */}
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
           <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
@@ -26,8 +26,8 @@ const ContactUs = () => {
           </div>
           <div className="mb-4">
             <p className="flex items-center">
-              <span className="text-xl mr-2"><MdEmail /></span>
-              <strong>Email:</strong> Contact@Mentorshipprogram.Com
+              <span className="text-sm sm:text-xl mr-2"><MdEmail /></span>
+              <strong>Email:</strong> contact@magura.Com
             </p>
           </div>
           <div>
