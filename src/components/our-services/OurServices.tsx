@@ -9,6 +9,7 @@ import servicesBg from "@/assets/header/12324.jpg";
 import parallaxBg from "@/assets/header/3d-rendering-loft-luxury-living-room-with-bookshelf.jpg";
 import { ParallaxCta } from "./parallax-cta";
 import PropertyManagement from "./PropertyManagement";
+import ContactService from "./ContactService";
 
 const OurServices = () => {
   return (
@@ -16,7 +17,7 @@ const OurServices = () => {
       <ParallaxProvider>
         <PropertyManagement />
         <PageHeader title="Our Services" backgroundImage={servicesBg.src} />
-
+        <ContactService />
         <FeaturesSection title="Why Choose Us" features={whychooseUs} />
         <ParallaxCta
           backgroundImage={parallaxBg.src}
@@ -28,7 +29,6 @@ const OurServices = () => {
       </ParallaxProvider>
     </div>
   );
-
 };
 
 export default OurServices;
