@@ -24,7 +24,7 @@ const OurClients = () => {
           furnished with style and comfort in mind.
         </p>
       </div>
-      <div className="flex w-full flex-wrap max-sm:flex-col justify-center items-center my-20">
+      <div className="flex w-full flex-wrap max-sm:flex-col justify-center items-center my-20 overflow-hidden">
         {images.map((img, key) => (
           <Image
             key={key}
