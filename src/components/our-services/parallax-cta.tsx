@@ -45,7 +45,7 @@ export function ParallaxCta({
                                 {title}
                             </h2>
                             <Button
-                                className="bg-blue-600 text-sm font-semibold uppercase tracking-wider hover:bg-blue-700 rounded-full text-white"
+                                className="bg-accent text-sm font-semibold uppercase tracking-wider  rounded-full text-white"
                             >
                                 <a href={buttonHref}>{buttonText}</a>
                             </Button>
