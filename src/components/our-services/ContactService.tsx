@@ -28,7 +28,7 @@ export default function ContactService() {
             professional management without the financial strain.
           </p>
           <p className="text-lg">Contact us today for a personalized quote.</p>
-          <Button onClick={() => router.push("/contactUs")} className="bg-yellow-400 rounded-full px-8 hover:bg-yellow-500 text-black font-medium">
+          <Button onClick={() => router.push("/contactUs")} className="bg-accent rounded-full px-8  text-black font-medium">
             CONTACT US
           </Button>
         </div>

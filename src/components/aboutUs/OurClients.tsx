@@ -11,6 +11,7 @@ const OurClients = () => {
   return (
     <div className="container">
       <div>
+
         <SectionHeader title="Our Clients" line />
         <p className="text-xl md:text-2xl mb-6 first-letter:font-bold first-letter:text-[1.6rem]">
           Our network of tenants includes some of the most talented and

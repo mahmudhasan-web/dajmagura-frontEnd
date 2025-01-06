@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className=''>
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-primary text-white py-12">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           {/* Logo and Social Icons */}
           <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">

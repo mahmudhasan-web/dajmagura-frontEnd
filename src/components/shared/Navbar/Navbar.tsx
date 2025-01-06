@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='my-auto md:block hidden'>
-                <Button onClick={() => router.push("/contactUs")} className='rounded-3xl bg-accent'>CONTACT US</Button>
+                <Button onClick={() => router.push("/contactUs")} className='rounded-3xl text-accent border border-accent'>CONTACT US</Button>
             </div>
             <div className='my-auto text-white md:hidden block'>
                 <button onClick={() => setSideNav(true)} className='text-3xl top-1 relative '><TiThMenu className='' /></button>

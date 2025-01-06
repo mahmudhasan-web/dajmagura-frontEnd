@@ -11,7 +11,7 @@ export function PageHeader({
     backgroundImage,
 }: PageHeaderProps) {
     return (
-        <div className="relative h-[250px] w-full overflow-hidden lg:h-[400px]">
+        <div className="relative h-[250px] w-full overflow-hidden lg:h-[500px]">
             {/* Background Image */}
             <Image
                 src={backgroundImage}
@@ -23,7 +23,7 @@ export function PageHeader({
             />
 
             {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-primary_bg" />
+            <div className="absolute inset-0 bg-primary_bg opacity-50" />
 
             {/* Content */}
             <div className="relative flex h-full items-center justify-center px-4 max-w-3xl mx-auto">

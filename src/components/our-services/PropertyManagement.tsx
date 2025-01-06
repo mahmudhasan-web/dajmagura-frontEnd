@@ -48,7 +48,7 @@ const PropertyManagement = () => {
               sizes="(max-width: 300px) 100vw, 50vw"
             />
 
-            <div className="absolute group-hover:h-full transition-all bottom-0 left-0 w-full h-[180px] bg-gradient-to-t from-[#041326] text-[#fefffc] flex group-hover:items-center justify-center flex-col group-hover:flex-row to-black/0">
+            <div className="absolute group-hover:h-full transition-all bottom-0 left-0 w-full h-[180px] bg-gradient-to-t from-[#0C2C2AD9] text-[#fefffc] flex group-hover:items-center justify-center flex-col group-hover:flex-row to-black/0">
               <div className="group-hover:opacity-0 absolute bottom-8 left-5 font-bold text-2xl sm:text-3xl lg:text-4xl font-lora">
                 {item.title}
               </div>

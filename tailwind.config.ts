@@ -21,12 +21,13 @@ const config: Config = {
         },
       },
       colors: {
-        primary: "#1A73E8",
-        accent: "#F5C518",
+        primary: "#0C2C2AD9",
+        accent: "#00CCC1",
+
         text_primary: "#041326",
         text_secondary: "#6B7280",
         paragraph: "#4A4A4A",
-        primary_bg: "#04132699",
+        primary_bg: "#0C2C2AD9",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
