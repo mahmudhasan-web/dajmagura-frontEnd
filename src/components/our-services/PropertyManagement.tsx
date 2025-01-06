@@ -1,8 +1,8 @@
 import React from "react";
 import SectionHeader from "../shared/header/SectionHeader";
 import Image from "next/image";
-import Image1 from "@/assets/d5f9f4fec652d0a47e4b44abb17a894e_11zon.jpg";
-import Image2 from "@/assets/Rectangle 4296.png";
+import Image2 from "@/assets/d5f9f4fec652d0a47e4b44abb17a894e_11zon.jpg";
+import Image1 from "@/assets/Rectangle 4296.png";
 import Image3 from "@/assets/Rectangle 4297.png";
 
 // Expanded images array with title and header
