@@ -10,7 +10,7 @@ export default function Page() {
             <Banner></Banner>
             <FeaturesSection
                 title="Why Choose “Magura” Property Solutions?"
-                subtitle="Experience expert management, maximize your returns, and enjoy unparalleled support with a team you can trust."
+                subtitle="Experience expert management, maximise your returns, and enjoy unparalleled support with a team you can trust.."
                 features={HomewhychooseUs}
             />
             <TestimonialsSlider />
