@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     template: "%s | Magura",
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
