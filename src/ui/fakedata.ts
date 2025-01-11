@@ -1,10 +1,10 @@
 import featur1 from "@/assets/features/encryption-key 2.png";
 import image1 from "@/assets/testimonials/elegant-businessman-office.png";
-import image2 from "@/assets/testimonials/elegant-businessman-office.png";
-import image3 from "@/assets/testimonials/elegant-businessman-office.png";
-import image4 from "@/assets/testimonials/elegant-businessman-office.png";
-import image5 from "@/assets/testimonials/elegant-businessman-office.png";
-import image6 from "@/assets/testimonials/elegant-businessman-office.png";
+import image2 from "@/assets/testimonials/bussinessmen.png";
+import image3 from "@/assets/testimonials/businessman.png";
+import image4 from "@/assets/testimonials/bussinessmen2.png";
+import image5 from "@/assets/testimonials/bussinessmen3.png";
+import image6 from "@/assets/testimonials/bussinessmen4.png";
 import handShake from "@/assets/features//handshake 2.png";
 import customer from "@/assets/features/customer-service 2.png";
 import customer2 from "@/assets/features/costumer 2.png";
