@@ -55,7 +55,7 @@ export default function DynamicSection({
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="text-3xl md:my-5 md:text-4xl font-semibold font-lora "
+                className="text-3xl md:my-5 md:text-4xl font-semibold font-cardillac "
               >
                 {section.title}
               </motion.h2>

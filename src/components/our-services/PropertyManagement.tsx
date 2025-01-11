@@ -44,16 +44,16 @@ const PropertyManagement = () => {
               alt={item.title}
               width={200}
               height={200}
-              className="object-cover w-[250px] sm:w-[300px] md:w-[500px] aspect-square mx-auto transition-transform duration-1000"
+              className="object-cover w-[250px] sm:w-[300px] md:w-[500px] aspect-square mx-auto transition-transform duration-1000 ease-in-out"
               sizes="(max-width: 300px) 100vw, 50vw"
             />
 
             <div className="absolute group-hover:h-full transition-all bottom-0 left-0 w-full h-[180px] bg-gradient-to-t from-[#0C2C2AD9] text-[#fefffc] flex group-hover:items-center justify-center flex-col group-hover:flex-row to-black/0">
-              <div className="group-hover:opacity-0 absolute bottom-8 left-5 font-bold text-2xl sm:text-3xl lg:text-4xl font-lora">
+              <div className="group-hover:opacity-0 absolute bottom-8 left-5 font-bold text-2xl sm:text-3xl lg:text-4xl font-cardillac">
                 {item.title}
               </div>
               <div className="text-center opacity-0 group-hover:opacity-100 px-4">
-                <div className="group-hover:opacity-100 opacity-0 font-bold text-2xl sm:text-3xl lg:text-4xl font-lora">
+                <div className="group-hover:opacity-100 opacity-0 font-bold text-2xl sm:text-3xl lg:text-4xl font-cardillac">
                   {item.title}
                 </div>
                 <p className="text-xl md:text-2xl mt-4">{item.header}</p>

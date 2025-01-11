@@ -38,6 +38,7 @@ const config: Config = {
       },
       fontFamily: {
         lora: ["Lora", "sans-serif"],
+        cardillac: ["Cardillac", "sans-serif"],
         nunitoSans: ["var(--font-nunito-sans)", "sans-serif"],
       },
     },

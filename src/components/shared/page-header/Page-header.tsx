@@ -47,8 +47,8 @@ export function PageHeader({
       <div className="absolute inset-0 bg-gradient-to-t from-[#0c2c2a50] to-[#0c2c2aaa]" />
 
       {/* Content */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 flex h-full items-center justify-center px-4 max-w-3xl mx-auto">
-        <h1 className="text-center text-3xl font-bold text-white md:text-4xl lg:text-5xl font-lora">
+      <div className="absolute top-3 left-1/2 -translate-x-1/2 flex h-full items-center justify-center px-4 w-full md:max-w-3xl mx-auto">
+        <h1 className="text-center text-3xl font-medium text-white md:text-4xl lg:text-6xl font-cardillac">
           {title}
         </h1>
       </div>

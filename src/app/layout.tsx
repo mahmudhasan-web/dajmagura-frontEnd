@@ -18,9 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${nunitoSans.className} ${lora.className} antialiased`}
-      >
+      <body className={`${nunitoSans.className} ${lora.className} antialiased`}>
         <Navbar />
         {children}
         <ContactUs />
