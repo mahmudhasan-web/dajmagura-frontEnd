@@ -4,6 +4,7 @@ import React from "react";
 import banner1 from "@/assets/banner1.png";
 import banner2 from "@/assets/banner2.png";
 import Button from "../shared/Button/Button";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -29,9 +30,11 @@ const Banner = () => {
               Your trusted partner for hassle-free property management
               solutions..
             </p>
-            <Button className="w-full rounded-3xl bg-accent uppercase max-w-md">
-              Book A Call
-            </Button>
+            <Link href={"/contactUs"}>
+              <Button className="w-full rounded-3xl bg-accent uppercase max-w-md">
+                Book A Call
+              </Button>
+            </Link>
           </div>
           <div className="w-7/12 h-3 absolute top-[24%] mt-1 rounded-md bg-white left-[22%]"></div>
         </div>
