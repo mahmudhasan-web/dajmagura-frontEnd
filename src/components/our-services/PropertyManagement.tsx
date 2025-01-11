@@ -1,9 +1,9 @@
 import React from "react";
 import SectionHeader from "../shared/header/SectionHeader";
 import Image from "next/image";
-import Image1 from "@/assets/d5f9f4fec652d0a47e4b44abb17a894e_11zon.jpg";
-import Image2 from "@/assets/Rectangle 4296.png";
-import Image3 from "@/assets/Rectangle 4297.png";
+import Image2 from "@/assets/d5f9f4fec652d0a47e4b44abb17a894e_11zon.jpg";
+import Image1 from "@/assets/Rectangle 36.png";
+import Image3 from "@/assets/Rectangle 36 (1).png";
 
 // Expanded images array with title and header
 const images = [
@@ -27,10 +27,10 @@ const images = [
 
 const PropertyManagement = () => {
   return (
-    <div>
+    <div className="section-gap">
       <SectionHeader
         className="max-w-4xl mx-auto"
-        title="Comprehensive Property Management Services Designed for Your Peace of Mind."
+        title="Comprehensive Property Management Services Designed for Your Peace of Mind.."
         center
       />
       <p className="text-xl md:text-2xl text-center">
@@ -44,18 +44,19 @@ const PropertyManagement = () => {
               alt={item.title}
               width={200}
               height={200}
-              className="object-cover max-w-[500px] aspect-square w-full mx-auto transition-transform duration-1000"
+              className="object-cover w-[250px] sm:w-[300px] md:w-[500px] aspect-square mx-auto transition-transform duration-1000"
               sizes="(max-width: 300px) 100vw, 50vw"
             />
-            <div className="absolute group-hover:h-full transition-all bottom-0 left-0 w-full h-[180px] bg-gradient-to-t from-[#041326] text-[#fefffc] flex group-hover:items-center justify-center flex-col group-hover:flex-row to-black/0">
-              <div className="group-hover:opacity-0 absolute bottom-8 left-5 font-bold text-3xl lg:text-4xl font-lora">
+
+            <div className="absolute group-hover:h-full transition-all bottom-0 left-0 w-full h-[180px] bg-gradient-to-t from-[#0C2C2AD9] text-[#fefffc] flex group-hover:items-center justify-center flex-col group-hover:flex-row to-black/0">
+              <div className="group-hover:opacity-0 absolute bottom-8 left-5 font-bold text-2xl sm:text-3xl lg:text-4xl font-lora">
                 {item.title}
               </div>
               <div className="text-center opacity-0 group-hover:opacity-100 px-4">
-                <div className="group-hover:opacity-100 opacity-0 font-bold  text-3xl lg:text-4xl font-lora">
+                <div className="group-hover:opacity-100 opacity-0 font-bold text-2xl sm:text-3xl lg:text-4xl font-lora">
                   {item.title}
                 </div>
-                <p className="text-2xl mt-4">{item.header}</p>
+                <p className="text-xl md:text-2xl mt-4">{item.header}</p>
               </div>
             </div>
           </div>

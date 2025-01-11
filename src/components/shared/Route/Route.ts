@@ -13,6 +13,10 @@ export const Routes = [
   },
   {
     label: "TESTIMONIALS",
-    route: "#testimonials",
+    route: "/#testimonials",
+  },
+  {
+    label: "CONTACT US",
+    route: "/contactUs",
   },
 ];

@@ -1,5 +1,5 @@
 import featur1 from "@/assets/features/encryption-key 2.png";
-import image1 from "@/assets/testimonials/elegant-businessman-office.jpg";
+import image1 from "@/assets/testimonials/elegant-businessman-office.png";
 import handShake from "@/assets/features//handshake 2.png";
 import customer from "@/assets/features/customer-service 2.png";
 import customer2 from "@/assets/features/costumer 2.png";

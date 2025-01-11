@@ -21,12 +21,13 @@ const config: Config = {
         },
       },
       colors: {
-        primary: "#1A73E8",
-        accent: "#F5C518",
+        primary: "#0C2C2AD9",
+        accent: "#00CCC1",
+
         text_primary: "#041326",
         text_secondary: "#6B7280",
         paragraph: "#4A4A4A",
-        primary_bg: "#04132699",
+        primary_bg: "#0C2C2AD9",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
@@ -48,30 +49,25 @@ const config: Config = {
       addComponents({
         ".section-gap": {
           paddingTop: "2rem", // Default padding for all screen sizes
-          paddingBottom: "2rem", // Default padding for all screen sizes
 
           // For small screens (sm)
           "@screen sm": {
             paddingTop: "4rem", // Adjust padding for small screens
-            paddingBottom: "4rem",
           },
 
           // For medium screens (md)
           "@screen md": {
             paddingTop: "6rem", // Adjust padding for medium screens
-            paddingBottom: "6rem",
           },
 
           // For large screens (lg)
           "@screen lg": {
             paddingTop: "7rem", // Adjust padding for large screens
-            paddingBottom: "7rem",
           },
 
           // For extra-large screens (xl)
           "@screen xl": {
             paddingTop: "8rem", // Adjust padding for extra-large screens
-            paddingBottom: "8rem",
           },
         },
       });

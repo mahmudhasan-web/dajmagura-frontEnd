@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Routes } from "../Route/Route";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Button from "../Button/Button";
 import { TiThMenu } from "react-icons/ti";
 import { motion } from "motion/react";
@@ -11,13 +11,12 @@ import Logo from "../header/Logo";
 
 const Navbar = () => {
   const pathName = usePathname();
+  const router = useRouter();
   const [sideNav, setSideNav] = useState(false);
   return (
     <div className="absolute flex h-16  z-50 justify-around w-full top-0">
       <div className="my-auto">
-        <h1 className={`text-3xl text-white`}>
-          <Logo />
-        </h1>
+        <Logo />
       </div>
       <div className="my-auto md:block hidden">
         <ul className="flex gap-5">
@@ -35,7 +34,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="my-auto md:block hidden">
-        <Button className="rounded-3xl bg-accent">CONTACT US</Button>
+        <Button
+          onClick={() => router.push("/contactUs")}
+          className="rounded-3xl text-accent border border-accent"
+        >
+          CONTACT US
+        </Button>
       </div>
       <div className="my-auto text-white md:hidden block">
         <button

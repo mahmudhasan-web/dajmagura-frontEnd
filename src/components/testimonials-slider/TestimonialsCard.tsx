@@ -28,8 +28,8 @@ export function TestimonialCard({
                     sizes="(max-width: 768px) 100vw, 200px"
                 />
                 {/* <div className='bg-white  z-20 w-2/3 bottom-0 imageDiv h-[200px]'> */}
-                <div className='bg-white  absolute w-5/6 h-[100px] bottom-0 imageDiv'>
-                    <div className='flex flex-col items-start justify-end p-1 h-full'>
+                <div className='bg-white  absolute w-5/6 h-[100px] -bottom-1 imageDiv'>
+                    <div className='flex flex-col items-start justify-end h-full'>
                         <p className="text-md font-semibold text-gray-900">
                             {author}
                         </p>
@@ -44,7 +44,7 @@ export function TestimonialCard({
                 <QuoteIcon className="absolute -left-2 -top-2 h-8 w-8 text-gray-200" />
 
                 {/* Quote text */}
-                <blockquote className="mb-4 text-lg leading-relaxed text-gray-700 mt-6">
+                <blockquote className="mb-4 text-lg leading-relaxed text-gray-700 mt-6 font-lora">
                     {quote}
                 </blockquote>
 
