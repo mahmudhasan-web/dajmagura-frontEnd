@@ -3,7 +3,7 @@ import SectionHeader from "../shared/header/SectionHeader";
 import Image from "next/image";
 import Image2 from "@/assets/d5f9f4fec652d0a47e4b44abb17a894e_11zon.jpg";
 import Image1 from "@/assets/Rectangle 36.png";
-import Image3 from "@/assets/Rectangle 36 (1).png";
+import Image3 from "@/assets/image (2).jpg";
 
 // Expanded images array with title and header
 const images = [
@@ -44,7 +44,7 @@ const PropertyManagement = () => {
               alt={item.title}
               width={200}
               height={200}
-              className="object-cover w-[250px] sm:w-[300px] md:w-[500px] aspect-square mx-auto transition-transform duration-1000 ease-in-out"
+              className="object-cover object-left brightness-75 w-[250px] sm:w-[300px] md:w-[500px] aspect-square mx-auto transition-transform duration-1000 ease-in-out"
               sizes="(max-width: 300px) 100vw, 50vw"
             />
 

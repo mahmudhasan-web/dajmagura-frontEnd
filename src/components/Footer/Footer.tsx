@@ -14,7 +14,7 @@ const Footer = () => {
               <Logo />
             </div>
 
-            <div className="flex space-x-4 mt-2">
+            <div className="flex items-center justify-center mt-5 text-center w-full space-x-4">
               <Link
                 href="#"
                 className="text-white hover:text-gray-400 text-2xl"

@@ -9,7 +9,7 @@ const Logo = () => {
       <Image
         src={LogoIcon}
         width={200}
-        className="w-[100px] md:w-[120px] hover:scale-105 transition-all"
+        className="w-[110px] md:w-[140px] h-20 object-cover overflow-hidden hover:scale-105 block transition-all"
         height={220}
         alt="logo"
       />
