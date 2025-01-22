@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <div className="">
       <div className=" bg-gray-100 py-20">
-        <div className="flex flex-col md:flex-row items-center justify-around container">
+        <div className="flex flex-col md:flex-row items-center justify-between container">
           {/* Contact Info Section */}
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
             <h2 className="text-3xl font-cardillac font-bold mb-4">
@@ -51,7 +51,7 @@ const ContactUs = () => {
           </div>
 
           {/* Contact Form Section */}
-          <div className="w-full md:w-1/3  p-6 rounded-lg">
+          <div className="w-full md:w-1/2 max-w-lg md:p-6 rounded-lg">
             <form>
               <div className="mb-4">
                 <label

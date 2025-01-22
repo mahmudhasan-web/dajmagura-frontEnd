@@ -14,7 +14,7 @@ const Navbar = () => {
   const router = useRouter();
   const [sideNav, setSideNav] = useState(false);
   return (
-    <div className="absolute flex h-1/6 md:h-20 z-50 justify-between container left-1/2 -translate-x-1/2  px-4 w-full top-0">
+    <div className="absolute flex h-16 md:h-20 z-50 justify-between container left-1/2 -translate-x-1/2  px-4 w-full top-0">
       <div className="my-auto">
         <Logo />
       </div>

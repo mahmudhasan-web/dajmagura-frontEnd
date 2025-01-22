@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Rights Section */}
           <div className="text-sm text-gray-200 space-y-6">
-            <ul className="flex flex-wrap gap-2 space-x-8 text-sm font-medium mb-4 md:mb-0">
+            <ul className="flex flex-wrap gap-2 !text-left items-center justify-center md:space-x-8 text-sm font-medium mb-4 md:mb-0">
               <li>
                 <Link href="/" className="hover:text-gray-400">
                   HOME
@@ -57,7 +57,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/#testimonials" className="hover:text-gray-400">
+                <Link href="/testimonials" className="hover:text-gray-400">
                   TESTIMONIALS
                 </Link>
               </li>

@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import Button from "../shared/Button/Button";
-import Image1 from "@/assets/image.png";
+import Image1 from "@/assets/image (4).jpg";
 import { useRouter } from "next/navigation";
 
 export default function ContactService() {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <section className="container my-20">
       <div className="grid gap-8 md:grid-cols-2 items-center">

@@ -22,7 +22,7 @@ const SectionHeader = ({
           {title}
         </div>
         <div className="flex items-center max-md:mt-4 flex-1">
-          <div className="w-1/4 min-w-[250px] md:min-w-[400px] h-3 bg-accent"></div>
+          <div className="w-1/4 min-w-[200px] md:min-w-[400px] h-3 bg-accent"></div>
           <div className="w-full h-1 bg-accent"></div>
         </div>
       </div>
