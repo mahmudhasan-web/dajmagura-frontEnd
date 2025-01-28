@@ -14,8 +14,8 @@ const page = () => {
   return (
     <div className="">
       <PageHeader
-        title="About Magura property management."
-        multiple={[anputUsBg.src, anputUsBg2.src, anputUsBg3.src]}
+        title="About Magura"
+        multiple={[anputUsBg2.src, anputUsBg3.src, anputUsBg.src]}
       />
       <AboutUs />
     </div>

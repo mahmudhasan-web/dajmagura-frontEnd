@@ -13,7 +13,7 @@ export function PageHeader({
   multiple,
 }: PageHeaderProps) {
   return (
-    <div className="relative h-[250px] w-full overflow-hidden lg:h-[500px]">
+    <div className="relative h-[300px] w-full overflow-hidden lg:h-[600px]">
       {/* Background Image */}
       {backgroundImage ? (
         <Image

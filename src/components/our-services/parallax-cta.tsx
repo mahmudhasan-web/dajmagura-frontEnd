@@ -34,13 +34,13 @@ export function ParallaxCta({
         {/* Content Layer */}
         <ParallaxBannerLayer speed={-5}>
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="mx-auto max-w-4xl px-4 text-center">
+            <div className="mx-auto max-w-5xl px-4 text-center">
               {subtitle && (
-                <p className="mb-4 text-sm font-medium text-white md:text-base">
+                <p className="mb-4 text-sm font-medium text-white md:text-base lg:text-2xl">
                   {subtitle}
                 </p>
               )}
-              <h2 className="mb-8 text-2xl font-medium !leading-normal text-white md:text-3xl lg:text-4xl font-cardillac">
+              <h2 className="mb-8 text-xl sm:text-2xl font-medium !leading-normal text-white md:text-3xl lg:text-5xl ">
                 {title}
               </h2>
               <Button className="bg-accent text-sm font-semibold uppercase tracking-wider  rounded-full text-white">

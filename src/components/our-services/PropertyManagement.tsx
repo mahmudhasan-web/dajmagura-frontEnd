@@ -3,7 +3,7 @@ import SectionHeader from "../shared/header/SectionHeader";
 import Image from "next/image";
 import Image2 from "@/assets/d5f9f4fec652d0a47e4b44abb17a894e_11zon.jpg";
 import Image1 from "@/assets/Rectangle 36.png";
-import Image3 from "@/assets/image (2).jpg";
+import Image3 from "@/assets/image22.png";
 
 // Expanded images array with title and header
 const images = [
@@ -27,7 +27,7 @@ const images = [
 
 const PropertyManagement = () => {
   return (
-    <div className="section-gap">
+    <div className="section-gap ">
       <SectionHeader
         className="max-w-4xl mx-auto"
         title="Comprehensive Property Management Services Designed for Your Peace of Mind.."
@@ -36,7 +36,7 @@ const PropertyManagement = () => {
       <p className="text-xl md:text-2xl text-center">
         Whether you own one property or an entire portfolio, we handle it all.
       </p>
-      <div className="flex w-full gap-3 max-sm:flex-col justify-center items-center my-20">
+      <div className="flex w-full gap-3 max-sm:flex-col justify-center items-center mt-20">
         {images.map((item, key) => (
           <div key={key} className="relative group">
             <Image
