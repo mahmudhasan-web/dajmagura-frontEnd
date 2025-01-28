@@ -1,13 +1,12 @@
 "use client";
-import React, { useState } from "react";
-import { Routes } from "../Route/Route";
+import { motion } from "motion/react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import Button from "../Button/Button";
-import { TiThMenu } from "react-icons/ti";
-import { motion } from "motion/react";
+import { useState } from "react";
 import { IoClose } from "react-icons/io5";
+import { TiThMenu } from "react-icons/ti";
 import Logo from "../header/Logo";
+import { Routes } from "../Route/Route";
 
 const Navbar = () => {
   const pathName = usePathname();
@@ -24,9 +23,8 @@ const Navbar = () => {
             <Link
               key={idx}
               href={e.route}
-              className={`${
-                pathName == e.route ? "text-accent font-semibold" : "text-white"
-              }`}
+              className={`text-base ${pathName == e.route ? "text-accent font-semibold" : "text-white"
+                }`}
             >
               <li>{e.label}</li>
             </Link>
@@ -34,12 +32,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="my-auto md:block hidden">
-        <Button
+        <button
           onClick={() => router.push("/contactUs")}
-          className="rounded-3xl text-accent border border-accent"
+          className="rounded-3xl text-accent border border-accent py-3 px-10"
         >
           CONTACT US
-        </Button>
+        </button>
       </div>
       <div className="my-auto text-white md:hidden block">
         <button
@@ -68,11 +66,10 @@ const Navbar = () => {
               <Link
                 key={idx}
                 href={e.route}
-                className={`${
-                  pathName == e.route
-                    ? "text-accent font-semibold"
-                    : "text-white"
-                }`}
+                className={`${pathName == e.route
+                  ? "text-accent font-semibold"
+                  : "text-white"
+                  }`}
               >
                 <li>{e.label}</li>
               </Link>

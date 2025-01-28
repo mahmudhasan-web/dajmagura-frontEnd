@@ -8,7 +8,7 @@ import image6 from "@/assets/testimonials/bussinessmen4.png";
 import handShake from "@/assets/features//handshake 2.png";
 import customer from "@/assets/features/customer-service 2.png";
 import customer2 from "@/assets/features/costumer 2.png";
-import coins from "@/assets/features/stack_16809246.png";
+import coins from "@/assets/features/get-money 1.png";
 
 export const HomewhychooseUs = [
   {

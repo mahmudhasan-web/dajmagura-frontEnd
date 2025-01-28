@@ -44,7 +44,7 @@ export function TestimonialCard({
                 <QuoteIcon className="absolute -left-2 -top-2 h-8 w-8 text-gray-200" />
 
                 {/* Quote text */}
-                <blockquote className="mb-4 text-lg leading-relaxed text-gray-700 mt-6 font-cardillac">
+                <blockquote className="mb-4 sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-gray-700 mt-6 font-cardillac">
                     {quote}
                 </blockquote>
 
