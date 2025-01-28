@@ -21,9 +21,7 @@ export function FeaturesSection({
         <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl font-cardillac">
           {title}
         </h2>
-        <p className="text-muted-foreground text-sm sm:text-lg lg:text-xl">
-          {subtitle}
-        </p>
+        <p className="text-text text-sm sm:text-lg lg:text-xl">{subtitle}</p>
       </div>
       <div className="mx-auto mt-10 grid max-w-5xl gap-10  md:gap-16 lg:gap-20 sm:grid-cols-2 lg:grid-cols-3">
         {features?.map((feature, index) => (

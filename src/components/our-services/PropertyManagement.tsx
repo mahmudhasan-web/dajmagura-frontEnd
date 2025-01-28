@@ -27,13 +27,13 @@ const images = [
 
 const PropertyManagement = () => {
   return (
-    <div className="section-gap ">
+    <div className="my-20 ">
       <SectionHeader
         className="max-w-4xl mx-auto"
         title="Comprehensive Property Management Services Designed for Your Peace of Mind.."
         center
       />
-      <p className="text-xl md:text-2xl text-center">
+      <p className="text-xl text-text md:text-2xl text-center">
         Whether you own one property or an entire portfolio, we handle it all.
       </p>
       <div className="flex w-full gap-3 max-sm:flex-col justify-center items-center mt-20">

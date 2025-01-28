@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Button from "../shared/Button/Button";
 import Image1 from "@/assets/image2323.png";
 import { useRouter } from "next/navigation";
 
@@ -29,12 +28,12 @@ export default function ContactService() {
             professional management without the financial strain.
           </p>
           <p className="">Contact us today for a personalized quote.</p>
-          <Button
+          <button
             onClick={() => router.push("/contactUs")}
-            className="bg-accent rounded-full px-8  text-black font-medium"
+            className="rounded-3xl text-sm text-accent border border-accent py-2 px-10"
           >
             CONTACT US
-          </Button>
+          </button>
         </div>
       </div>
     </section>

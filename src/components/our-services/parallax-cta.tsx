@@ -43,9 +43,11 @@ export function ParallaxCta({
               <h2 className="mb-8 font-cardillac text-xl sm:text-2xl font-medium !leading-normal text-white md:text-3xl lg:text-5xl ">
                 {title}
               </h2>
-              <Button className="bg-accent text-sm font-semibold uppercase tracking-wider  rounded-full text-white">
-                <a href={buttonHref}>{buttonText}</a>
-              </Button>
+              <a href={buttonHref}>
+                <Button className="bg-accent  font-semibold uppercase !px-10 py-2  rounded-full text-black">
+                  {buttonText}
+                </Button>
+              </a>
             </div>
           </div>
         </ParallaxBannerLayer>
