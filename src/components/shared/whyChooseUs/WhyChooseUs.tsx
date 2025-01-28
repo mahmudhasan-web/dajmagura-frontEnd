@@ -25,7 +25,7 @@ export function FeaturesSection({
           {subtitle}
         </p>
       </div>
-      <div className="mx-auto mt-10 grid max-w-5xl gap-20 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto mt-10 grid max-w-5xl gap-10  md:gap-16 lg:gap-20 sm:grid-cols-2 lg:grid-cols-3">
         {features?.map((feature, index) => (
           <FeatureCard
             key={index}

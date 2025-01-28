@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { lora, nunitoSans } from "./fonts/fonts";
+// import { lora } from "./fonts/fonts";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import ContactUs from "@/components/ContactUs/ContactUs";
 import Footer from "@/components/Footer/Footer";
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunitoSans.className} ${lora.className} antialiased`}>
+      <body className={`font-nexa antialiased`}>
         <Navbar />
         {children}
         <ContactUs />

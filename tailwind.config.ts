@@ -23,7 +23,7 @@ const config: Config = {
       colors: {
         primary: "#0C2C2A",
         accent: "#00CCC1",
-
+        text: "#2A2F35CC",
         text_primary: "#041326",
         text_secondary: "#6B7280",
         paragraph: "#4A4A4A",
@@ -39,7 +39,7 @@ const config: Config = {
       fontFamily: {
         lora: ["Lora", "sans-serif"],
         cardillac: ["Cardillac", "sans-serif"],
-        nunitoSans: ["var(--font-nunito-sans)", "sans-serif"],
+        // nunitoSans: ["var(--font-nunito-sans)", "sans-serif"],
         nexa: ["NexaRegular", "sans-serif"],
       },
     },

@@ -12,12 +12,12 @@ const OurClients = () => {
     <div>
       <div>
         <SectionHeader title="Our Clients" line />
-        <p className="text-xl md:text-2xl mb-6 first-letter:font-bold first-letter:text-[1.6rem]">
+        <p className="text-xl text-text mb-6 first-letter:font-bold first-letter:text-[1.6rem]">
           Our network of tenants includes some of the most talented and
           hardworking professionals in their fields, Magura ensures their stay
           is as stress-free and enjoyable as possible.
         </p>
-        <p className="text-xl md:text-2xl first-letter:font-bold first-letter:text-[1.6rem]">
+        <p className="text-xl text-text first-letter:font-bold first-letter:text-[1.6rem]">
           We take pride in understanding the unique needs of these individuals,
           from ensuring privacy and security to offering properties that are
           furnished with style and comfort in mind.

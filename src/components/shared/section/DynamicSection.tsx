@@ -55,7 +55,7 @@ export default function DynamicSection({
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="text-3xl md:my-5 md:text-4xl font-semibold font-cardillac "
+                className="text-2xl md:my-5 md:text-3xl font-semibold font-cardillac "
               >
                 {section.title}
               </motion.h2>
@@ -80,7 +80,7 @@ export default function DynamicSection({
                     if (typeof item === "string") {
                       return (
                         <p
-                          className="text-xl md:text-2xl first-letter:font-bold first-letter:text-[1.6rem]"
+                          className="text-xl md:text-xl first-letter:font-bold first-letter:text-[1.6rem]"
                           key={index}
                         >
                           {item}
@@ -102,7 +102,7 @@ export default function DynamicSection({
                               <span className="mr-2 mt-1 text-paragraph">
                                 •
                               </span>
-                              <span className="text-xl md:text-2xl">
+                              <span className="text-xl md:text-xl">
                                 {point}
                               </span>
                             </motion.li>

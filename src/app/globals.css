@@ -38,7 +38,7 @@
 body {
   color: var(--primary-text);
   background: var(--background);
-  font-family: NexaRegular;
+  font-family: [ "NexaRegular", sans-serif];
 }
 
 .imageDiv {

@@ -24,11 +24,11 @@ export default function ContactService() {
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight font-cardillac">
             Why pay unnecessary service charges?
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className=" text-text_primary">
             With flexible pricing options tailored to your needs, enjoy
             professional management without the financial strain.
           </p>
-          <p className="text-lg">Contact us today for a personalized quote.</p>
+          <p className="">Contact us today for a personalized quote.</p>
           <Button
             onClick={() => router.push("/contactUs")}
             className="bg-accent rounded-full px-8  text-black font-medium"
