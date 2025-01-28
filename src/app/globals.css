@@ -12,6 +12,12 @@
   font-display: swap; /* Optional: helps with rendering performance */
 }
 
+@font-face {
+  font-family: "NexaRegular";
+  src: url("./fonts/nexa-regular.ttf") format("truetype");
+  font-display: swap; /* Optional: helps with rendering performance */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,7 +38,7 @@
 body {
   color: var(--primary-text);
   background: var(--background);
-  font-family: var(--font-cardillac);
+  font-family: NexaRegular;
 }
 
 .imageDiv {

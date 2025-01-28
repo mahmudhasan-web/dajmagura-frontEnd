@@ -40,6 +40,7 @@ const config: Config = {
         lora: ["Lora", "sans-serif"],
         cardillac: ["Cardillac", "sans-serif"],
         nunitoSans: ["var(--font-nunito-sans)", "sans-serif"],
+        nexa: ["NexaRegular", "sans-serif"],
       },
     },
   },
