@@ -1,11 +1,11 @@
 "use client"
 
-import SwiperCore from "swiper"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
+import SwiperCore from "swiper"
+import { Autoplay } from "swiper/modules"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react"
-import { Autoplay } from "swiper/modules"
 import { testimonials } from "@/ui/fakedata"
 import { TestimonialCard } from "./TestimonialsCard"
 

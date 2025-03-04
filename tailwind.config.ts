@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import { PluginAPI } from "tailwindcss/types/config";
 
 const config: Config = {
   darkMode: ["class"],
@@ -46,33 +45,6 @@ const config: Config = {
   plugins: [
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     require("tailwindcss-animate"),
-    function ({ addComponents }: PluginAPI) {
-      addComponents({
-        ".section-gap": {
-          paddingTop: "2rem", // Default padding for all screen sizes
-
-          // For small screens (sm)
-          "@screen sm": {
-            paddingTop: "4rem", // Adjust padding for small screens
-          },
-
-          // For medium screens (md)
-          "@screen md": {
-            paddingTop: "6rem", // Adjust padding for medium screens
-          },
-
-          // For large screens (lg)
-          "@screen lg": {
-            paddingTop: "7rem", // Adjust padding for large screens
-          },
-
-          // For extra-large screens (xl)
-          "@screen xl": {
-            paddingTop: "8rem", // Adjust padding for extra-large screens
-          },
-        },
-      });
-    },
   ],
 };
 export default config;
