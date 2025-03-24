@@ -9,7 +9,7 @@ export default function Page() {
         <div>
             <Banner></Banner>
             <FeaturesSection
-                title="Why Choose “Magura” Property Solutions?"
+                title="Magura Property Management"
                 subtitle="Experience expert management, maximise your returns, and enjoy unparalleled support with a team you can trust.."
                 features={HomewhychooseUs}
             />

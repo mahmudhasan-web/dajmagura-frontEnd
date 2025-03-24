@@ -1,13 +1,13 @@
 "use client"
 
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import SwiperCore from "swiper"
-import { Autoplay } from "swiper/modules"
+import { testimonials } from "@/ui/fakedata"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react"
-import { testimonials } from "@/ui/fakedata"
-import { TestimonialCard } from "./TestimonialsCard"
+import SwiperCore from "swiper"
+import "swiper/css"
+import { Autoplay } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { NewTestimonialCard } from "./NewTwstimonialsCard"
 
 export default function TestimonialsSlider() {
     SwiperCore.use([Autoplay])
@@ -39,10 +39,7 @@ export default function TestimonialsSlider() {
                     >
                         {testimonials?.map((data, idx) => (
                             <SwiperSlide key={idx}>
-                                <TestimonialCard
-                                    author={data.author}
-                                    company={data.company}
-                                    imageSrc={data.imageSrc}
+                                <NewTestimonialCard
                                     quote={data.quote}
                                 />
                             </SwiperSlide>

@@ -51,7 +51,7 @@ export const whychooseUs = [
   },
 ];
 
-export const testimonials = [
+export const testimonials2 = [
   {
     quote:
       "This service completely transformed our workflow! From scheduling tasks to streamlining communication, everything has become more efficient. Highly recommend to anyone looking for a solution that prioritizes productivity and ease of use.",
@@ -90,6 +90,51 @@ export const testimonials = [
   {
     quote:
       "Magura Property Management has transformed how I manage my rentals. Their professional team handles everything from tenant communication to property maintenance, ensuring that I can focus on other priorities. Since partnering with them, my rental income has never been higher. ",
+    author: "Anonymous",
+    company: "Magura Property Management",
+    imageSrc: image6.src,
+  },
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Great, we had a pleasant stay at the apartment. It was superb, nothing more to say than to go for it!",
+    author: "John Doe",
+    company: "Tech Innovations",
+    imageSrc: image1.src,
+  },
+  {
+    quote:
+      "Brilliant apartment for our event we attended. Ella was a great host, very friendly and welcoming.",
+    author: "Jane Smith",
+    company: "Creative Solutions",
+    imageSrc: image2.src,
+  },
+  {
+    quote:
+      "We had a fantastic couple nights at Magura’s place. Great location - close to the stadium and great restaurants & cafes.The space was everything we needed! Beautiful bedrooms and two bathrooms were extremely convenient. Definitely recommend this accommodation and the host! Thanks Mate.",
+    author: "Michael Johnson",
+    company: "Future Enterprises",
+    imageSrc: image3.src,
+  },
+  {
+    quote:
+      "This apartment is fabulous & very homely. It is in pristine condition & the bed linen & towels are high quality. The kitchen has every utensil you could imagine so would be perfect for people wanting to cook at home. The staff was so helpful in the lead up to our stay & when checking in. They were available should we have any queries - which we didn’t as everything is set up so efficiently. We would definitely recommend staying in their properties.",
+    author: "Emily Davis",
+    company: "Bright Ideas Co.",
+    imageSrc: image4.src,
+  },
+  {
+    quote:
+      "The property is stunning and looks identical to the pictures. Would definitely recommend it to anyone thinking of booking! ",
+    author: "David Wilson",
+    company: "NextGen Labs",
+    imageSrc: image5.src,
+  },
+  {
+    quote:
+      "6.	By far one of my favourite bookings. Absolutely beautiful property, easy to find and a 2min walk from the shop and bus stop too. The host who met me at the property for check in was very friendly and was able to answer any questions I had. Will definitely be booking again in the near future so couldn't recommend enough. Thanks for having me!",
     author: "Anonymous",
     company: "Magura Property Management",
     imageSrc: image6.src,

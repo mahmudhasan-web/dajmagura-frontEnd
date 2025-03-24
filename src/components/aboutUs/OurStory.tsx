@@ -18,7 +18,7 @@ const OurStory = () => {
     },
     {
       id: 2,
-      title: "What Sets Us Apart",
+      title: "Our Focus",
       content: {
         text: [
           "At Magura, we specialize in pairing exceptional properties with exceptional people. Our focus is on creating a seamless, worry - free experience for both landlords and our clients.By placing working professionals in meticulously managed homes, we provide a win- win solution: ",

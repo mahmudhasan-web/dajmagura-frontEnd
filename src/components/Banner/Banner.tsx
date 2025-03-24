@@ -28,7 +28,7 @@ const Banner = () => {
             </h3>
             <p>
               Your trusted partner for hassle-free property management
-              solutions..
+              solutions.
             </p>
             <Link href={"/contactUs"}>
               <Button className="w-full mt-5 rounded-3xl bg-accent uppercase max-w-md">
