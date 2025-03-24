@@ -11,12 +11,9 @@ const ContactUs = () => {
         <div className="flex flex-col md:flex-row items-center justify-between container">
           {/* Contact Info Section */}
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
-            <h2 className="text-3xl font-cardillac font-bold mb-4">
-              Contact Us
-            </h2>
+            <h2 className="text-3xl font-cardillac font-bold mb-4">Contact Us</h2>
             <p className="text-gray-700 mb-4">
-              Connect with us through any of the following channels—we&apos;re
-              here to assist you.
+              Connect with us through any of the following channels—we&apos;re here to assist you.
             </p>
             <div className="mb-4">
               <p className="flex items-center mb-2">
@@ -24,8 +21,7 @@ const ContactUs = () => {
                   <IoLocationSharp />
                 </span>
                 <span>
-                  <strong>Address:</strong> 1234 Mentor Lane, Suite 100, Los
-                  Angeles, CA 90001, USA
+                  <strong>Address:</strong> 1234 Mentor Lane, Suite 100, Los Angeles, CA 90001, USA
                 </span>
               </p>
               <p className="text-gray-600 mb-1">Monday To Friday</p>
@@ -54,10 +50,7 @@ const ContactUs = () => {
           <div className="w-full md:w-1/2 max-w-lg md:p-6 rounded-lg">
             <form>
               <div className="mb-4">
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-semibold mb-2"
-                >
+                <label htmlFor="name" className="block text-sm font-semibold mb-2">
                   Name*
                 </label>
                 <input
@@ -69,10 +62,7 @@ const ContactUs = () => {
                 />
               </div>
               <div className="mb-4">
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-semibold mb-2"
-                >
+                <label htmlFor="email" className="block text-sm font-semibold mb-2">
                   Email*
                 </label>
                 <input
@@ -84,10 +74,7 @@ const ContactUs = () => {
                 />
               </div>
               <div className="mb-4">
-                <label
-                  htmlFor="phone"
-                  className="block text-sm font-semibold mb-2"
-                >
+                <label htmlFor="phone" className="block text-sm font-semibold mb-2">
                   Phone
                 </label>
                 <input
@@ -98,10 +85,7 @@ const ContactUs = () => {
                 />
               </div>
               <div className="mb-4">
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-semibold mb-2"
-                >
+                <label htmlFor="message" className="block text-sm font-semibold mb-2">
                   Your Message
                 </label>
                 <textarea
@@ -111,6 +95,19 @@ const ContactUs = () => {
                   rows={4}
                 ></textarea>
               </div>
+
+              {/* Mailing List Consent */}
+              <div className="mb-4 flex items-center">
+                <input
+                  type="checkbox"
+                  id="mailing-list"
+                  className="mr-2 rounded border-gray-300 text-accent focus:ring focus:ring-yellow-400"
+                />
+                <label htmlFor="mailing-list" className="text-sm">
+                  I agree to sign up for the mailing list and receive updates.
+                </label>
+              </div>
+
               <Button className="w-full rounded-3xl bg-accent">SEND</Button>
             </form>
           </div>
