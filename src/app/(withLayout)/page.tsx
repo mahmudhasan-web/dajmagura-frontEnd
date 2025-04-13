@@ -6,14 +6,14 @@ import { HomewhychooseUs } from "@/ui/fakedata";
 
 export default function Page() {
     return (
-        <div>
-            <Banner></Banner>
-            <FeaturesSection
-                title="Why Choose “Magura” Property Solutions?"
-                subtitle="Experience expert management, maximise your returns, and enjoy unparalleled support with a team you can trust.."
-                features={HomewhychooseUs}
-            />
-            <TestimonialsSlider />
-        </div>
+      <div>
+        <Banner></Banner>
+        <FeaturesSection
+          title="Why Choose “Magura” Property Solutions?"
+          subtitle="Experience expert management, maximise your returns, and enjoy unrivalled support with a team you can trust."
+          features={HomewhychooseUs}
+        />
+        <TestimonialsSlider />
+      </div>
     );
 }

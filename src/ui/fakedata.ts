@@ -15,19 +15,19 @@ export const HomewhychooseUs = [
     image: featur1.src,
     title: "Professional Management",
     description:
-      "Expert Care And Oversight For Your Property, Ensuring Seamless Operations",
+      "Expert care and oversight for your property, ensuring smooth and efficient operations",
   },
   {
     image: handShake.src,
     title: "Boost Your Returns",
     description:
-      "Unlock Higher Rental Income With Our Proven Strategies Designed To Maximize Returns",
+      "Unlock higher rental income with our proven strategies designed to maximise returns",
   },
   {
     image: customer.src,
     title: "Dedicated Support Team",
     description:
-      "Our Reliable Team Is Always Here To Handle Your Property Needs With Care And Experience",
+      "Our dependable team is always here to manage your property needs with care and expertise",
   },
 ];
 
@@ -54,7 +54,7 @@ export const whychooseUs = [
 export const testimonials = [
   {
     quote:
-      "This service completely transformed our workflow! From scheduling tasks to streamlining communication, everything has become more efficient. Highly recommend to anyone looking for a solution that prioritizes productivity and ease of use.",
+      "This service completely transformed our workflow! From scheduling tasks to streamlining communication, everything has become more efficient. Highly recommend to anyone looking for a solution that prioritises productivity and ease of use.",
     author: "John Doe",
     company: "Tech Innovations",
     imageSrc: image1.src,
@@ -89,9 +89,10 @@ export const testimonials = [
   },
   {
     quote:
-      "Magura Property Management has transformed how I manage my rentals. Their professional team handles everything from tenant communication to property maintenance, ensuring that I can focus on other priorities. Since partnering with them, my rental income has never been higher. ",
+      "Magura Property Management has transformed how I manage my rentals. Their professional team handles everything from tenant communication to property maintenance, ensuring that I can focus on other priorities. Since partnering with them, my rental income has never been higher.",
     author: "Anonymous",
     company: "Magura Property Management",
     imageSrc: image6.src,
   },
 ];
+

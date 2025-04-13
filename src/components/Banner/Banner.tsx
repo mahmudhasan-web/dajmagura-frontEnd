@@ -20,7 +20,7 @@ const Banner = () => {
           ></Image>
           <div className="w-10/12 mx-auto absolute top-[30%] md:top-[15%] xl:top-1/4 border max-sm:px-6 max-sm:py-10 sm:pl-12 sm:pt-12 sm:pb-12 sm:pr-6 text-white left-[10%] space-y-6">
             <h1 className="md:text-6xl text-3xl sm:text-4xl font-cardillac">
-              Maximize Your Property’s Potential with Expert Management.
+              Maximise Your Property’s Potential with Expert Management.
             </h1>
             <h3 className="md:text-3xl text-lg sm:text-xl">
               Let your property work for you. Earn more whilst we handle every
@@ -28,7 +28,7 @@ const Banner = () => {
             </h3>
             <p>
               Your trusted partner for hassle-free property management
-              solutions..
+              solutions.
             </p>
             <Link href={"/contactUs"}>
               <Button className="w-full mt-5 rounded-3xl bg-accent uppercase max-w-md">
