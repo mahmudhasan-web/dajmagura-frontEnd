@@ -30,7 +30,7 @@ const PropertyManagement = () => {
     <div className="my-20 ">
       <SectionHeader
         className="max-w-4xl mx-auto"
-        title="Comprehensive Property Management Services Designed for Your Peace of Mind.."
+        title="Comprehensive Property Management Services Designed for Your Peace of Mind."
         center
       />
       <p className="text-xl text-text md:text-2xl text-center">

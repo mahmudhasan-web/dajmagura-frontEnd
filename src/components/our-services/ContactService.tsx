@@ -25,9 +25,11 @@ export default function ContactService() {
           </h2>
           <p className=" text-text_primary">
             With flexible pricing options tailored to your needs, enjoy
-            professional management without the financial strain.
+            professional management without the financial burden.
           </p>
-          <p className="">Contact us today for a personalized quote.</p>
+          <p className="">
+            Get in touch with us today for a personalised quote.
+          </p>
           <button
             onClick={() => router.push("/contactUs")}
             className="rounded-3xl text-sm text-accent border border-accent py-2 px-10"

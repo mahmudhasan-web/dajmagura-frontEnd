@@ -22,8 +22,8 @@ const OurServices = () => {
         backgroundImage={parallaxBg.src}
         buttonHref="/contactUs"
         buttonText="Book a call today"
-        subtitle="Ready to stop paying management fees? "
-        title="Contact us today to schedule a consultation and unlock your property's full potential!"
+        subtitle="Ready to stop paying management charges?"
+        title="Get in touch with us today to arrange a consultation and realise your property’s full potential!"
       />
     </ParallaxProvider>
   );
