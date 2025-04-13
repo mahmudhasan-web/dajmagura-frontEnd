@@ -22,7 +22,7 @@ const OurStory = () => {
       title: "What Sets Us Apart",
       content: {
         text: [
-          "At Magura, we specialize in pairing exceptional properties with exceptional people. Our focus is on creating a seamless, worry - free experience for both landlords and our clients.By placing working professionals in meticulously managed homes, we provide a win- win solution: ",
+          "At Magura, we specialize in pairing exceptional properties with exceptional people. Our focus is on creating a seamless, worry - free experience for both landlords and our clients.By placing working professionals in meticulously managed homes, we provide a win- win solution:",
           {
             bulletPoints: [
               "For landlords, we ensure properties are well-maintained, tenants are thoroughly vetted, and income is consistent.",
@@ -41,11 +41,12 @@ const OurStory = () => {
       <SectionHeader title="Our Story" line />
       <SectionHeader title="The Story of Magura Property Management" />
       <p className="text-paragraph text-xl">
-        Magura was born out of a simple yet powerful vision: to bridge the gap
-        between landlords seeking reliable tenants and travelling professionals
-        in need of a truly comfortable home away from home. Founded in the heart
-        of London, our company was inspired by the city’s dynamic lifestyle and
-        the unique demands of its high-achieving residents and visitors.
+        Magura was born from a simple yet powerful vision: to bridge the gap
+        between landlords seeking dependable tenants and travelling
+        professionals in search of a genuinely comfortable home away from home.
+        Founded in the heart of London, our company was inspired by the city’s
+        vibrant lifestyle and the distinctive needs of its high-achieving
+        residents and visitors.
       </p>
       <DynamicSection dynamicSection={sections} />
     </div>

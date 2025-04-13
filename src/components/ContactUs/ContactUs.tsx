@@ -15,7 +15,7 @@ const ContactUs = () => {
               Contact Us
             </h2>
             <p className="text-text mb-4">
-              Connect with us through any of the following channels—we&apos;re
+              Connect with us through any of the following channels —we&apos;re
               here to assist you.
             </p>
             <table className="mb-4 w-full border-collapse">
@@ -51,7 +51,7 @@ const ContactUs = () => {
                     <strong className="mr-1 font-medium">Email: </strong>
                   </td>
                   <td className="pt-4">
-                    <span className="text-text">contact@magura.Com</span>
+                    <span className="text-text">contact@magura.com</span>
                   </td>
                 </tr>
                 <tr>
