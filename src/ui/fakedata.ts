@@ -31,7 +31,7 @@ export const HomewhychooseUs = [
   },
 ];
 
-export const whychooseUs = [
+export const whyChooseUs = [
   {
     image: customer2.src,
     title: "proven track record",
@@ -47,7 +47,7 @@ export const whychooseUs = [
     image: coins.src,
     title: "unique benefits",
     description:
-      "No hidden fees, transparent pricing, and a dedicated team committed to maximizing your ROI.",
+      "No hidden fees, transparent pricing, and a dedicated team committed to maximising your ROI.",
   },
 ];
 
@@ -95,4 +95,3 @@ export const testimonials = [
     imageSrc: image6.src,
   },
 ];
-

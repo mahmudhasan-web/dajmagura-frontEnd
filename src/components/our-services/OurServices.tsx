@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FeaturesSection } from "../shared/whyChooseUs/WhyChooseUs";
-import { whychooseUs } from "@/ui/fakedata";
+import { whyChooseUs } from "@/ui/fakedata";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { PageHeader } from "../shared/page-header/Page-header";
 import servicesBg from "@/assets/header/12324.png";
@@ -16,7 +16,7 @@ const OurServices = () => {
     <ParallaxProvider>
       <PageHeader title="Our Services" backgroundImage={servicesBg.src} />
       <PropertyManagement />
-      <FeaturesSection title="Why Choose Us" features={whychooseUs} />
+      <FeaturesSection title="Why Choose Us" features={whyChooseUs} />
       <ContactService />
       <ParallaxCta
         backgroundImage={parallaxBg.src}
